@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>FORM</title>
+	<style>
+		.form{
+			display:flex;
+		}
+		input
+		{
+			padding:10px;
+			margin-bottom:20px;
+		}
+		.button
+		{
+			padding:10px;
+			margin-bottom:20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="form">
+		<form>
+			<div><input type="text" placeholder=" First Name" class="firstname"/></div>
+			<div><input type="text" placeholder="Last Name" class="lastname"/></div>
+			<div><input type="time" placeholder="Delay Time" class="time"/></div>
+			<div><button class="button">Click</button></div>
+		
+		</form>
+	</div>
+	<div class="names">
+</body>
+<script>
+	var result=JSON.parse(localStorage.getItem("form"))||[];
+	button.onclick=function(){
+	let div=document.createElement("div");
+	let name=document.querySelector(".name").value;
+	div.append(name);
+	names.append(div);
+	
+	
+	
+	}
+	
+}
+</script>
+</html>
